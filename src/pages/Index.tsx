@@ -70,9 +70,18 @@ const Index = () => {
               консультации
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-mystical-amber hover:bg-amber-600 text-black font-semibold px-8 py-3 text-lg">
-                <Icon name="Sparkles" className="mr-2" size={20} />
-                Получить бота желаний
+              <Button
+                asChild
+                className="bg-mystical-amber hover:bg-amber-600 text-black font-semibold px-8 py-3 text-lg"
+              >
+                <a
+                  href="https://t.me/design_intensive_bot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon name="Sparkles" className="mr-2" size={20} />
+                  Получить бота желаний
+                </a>
               </Button>
               <Button
                 variant="outline"
