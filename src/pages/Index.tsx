@@ -330,7 +330,7 @@ const Index = () => {
                   className="w-full bg-mystical-amber hover:bg-amber-600 text-black font-semibold py-4 text-lg"
                 >
                   <a
-                    href="https://t.me/your_bot_link"
+                    href="https://youtu.be/2OkAi7M64E4?si=PgxZ9YyTfQRiVwar"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
