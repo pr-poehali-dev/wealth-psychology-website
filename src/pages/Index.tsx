@@ -325,9 +325,18 @@ const Index = () => {
                 <p className="text-gray-300 mb-6">
                   Пожизненный доступ к боту желаний
                 </p>
-                <Button className="w-full bg-mystical-amber hover:bg-amber-600 text-black font-semibold py-4 text-lg">
-                  <Icon name="Sparkles" className="mr-2" size={20} />
-                  Купить бота желаний
+                <Button
+                  asChild
+                  className="w-full bg-mystical-amber hover:bg-amber-600 text-black font-semibold py-4 text-lg"
+                >
+                  <a
+                    href="https://t.me/your_bot_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Icon name="Sparkles" className="mr-2" size={20} />
+                    Купить бота желаний
+                  </a>
                 </Button>
                 <p className="text-sm text-gray-400 mt-4">
                   30 дней гарантии возврата средств
